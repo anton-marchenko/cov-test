@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 12.x
 
-    - name: npm install, make test-coverage
+    - name: npm install
       run: |
         npm install
         jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
