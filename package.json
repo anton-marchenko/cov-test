@@ -1,0 +1,22 @@
+{
+  "name": "cov-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-marchenko/cov-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anton-marchenko/cov-test/issues"
+  },
+  "homepage": "https://github.com/anton-marchenko/cov-test#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
